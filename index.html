@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="SkillMatch – Creating High-Impact Websites for Emerging Businesses. Scalable, visually appealing websites for new brands." />
+  <title>SkillMatch – Creating High-Impact Websites</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <span class="logo-main">SkillMatch</span>
+      </div>
+      <div class="nav-center">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">HOME</a></li>
+          <li><a href="#about" class="nav-link">ABOUT US</a></li>
+          <li><a href="#services" class="nav-link">SERVICES</a></li>
+          <li><a href="#team" class="nav-link">TEAM</a></li>
+        </ul>
+        <a href="#contact" class="btn-contact">CONTACT ME →</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-glow glow-purple"></div>
+    <div class="hero-bg-glow glow-blue"></div>
+
+    <div class="hero-content">
+      <p class="hero-tag">Top Rated Web Agency</p>
+      <h1 class="hero-title">
+        Creating High Impact<br />Websites for<br />Emerging Businesses
+      </h1>
+      <p class="hero-desc">
+        We design and develop scalable, visually appealing websites<br />
+        that help new brands establish a strong digital presence.
+      </p>
+      <a href="#services" class="hero-work-btn">Our Services →</a>
+
+      <div class="hero-clients">
+        <div class="client-avatars">
+          <div class="avatar av1"></div>
+          <div class="avatar av2"></div>
+          <div class="avatar av3"></div>
+        </div>
+        <span class="clients-text">120+ Satisfied Clients</span>
+      </div>
+    </div>
+
+    <!-- Floating Cards Panel -->
+    <div class="hero-panel">
+      <div class="panel-card card-top" id="card1">
+        <div class="card-header">
+          <span class="card-badge">✓</span>
+          <div class="card-icon-group">
+            <span class="ci">👤</span><span class="ci">👤</span>
+          </div>
+        </div>
+        <p class="card-label">UI Audit</p>
+        <p class="card-price">Monthly $100</p>
+      </div>
+
+      <div class="panel-card card-mid" id="card2">
+        <div class="card-dot-wrap">
+          <span class="card-dot green"></span>
+        </div>
+        <p class="card-sm-label">Premium rate</p>
+        <p class="card-price-lg">$72.5 / Month</p>
+      </div>
+
+      <div class="panel-card card-bot" id="card3">
+        <div class="card-discount-icon">%</div>
+        <div>
+          <p class="card-sm-label">Get Discount</p>
+          <p class="card-price-lg">18% / First Pay</p>
+        </div>
+      </div>
+
+      <!-- Decorative send icons -->
+      <div class="send-icon si1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="22" y1="2" x2="11" y2="13" />
+          <polygon points="22 2 15 22 11 13 2 9 22 2" />
+        </svg>
+      </div>
+      <div class="send-icon si2">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="22" y1="2" x2="11" y2="13" />
+          <polygon points="22 2 15 22 11 13 2 9 22 2" />
+        </svg>
+      </div>
+
+      <!-- Profile label -->
+      <div class="profile-label">SkillMatch</div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ME SECTION ===== -->
+  <section class="about" id="about">
+    <div class="about-container">
+
+      <!-- Left: Experience Card -->
+      <div class="about-left">
+        <div class="exp-card">
+          <span class="exp-number"><span class="exp-golden">5+</span></span>
+          <span class="exp-label">years of<br />experience</span>
+        </div>
+      </div>
+
+      <!-- Right: Content -->
+      <div class="about-right">
+        <p class="section-tag">About Us</p>
+        <h2 class="about-title">Turning Ideas Into High-Performing Digital Experiences</h2>
+        <p class="about-desc">
+          I specialize in designing intuitive and visually appealing websites that help
+          brands establish a strong online presence. My goal is simple — create digital
+          experiences that engage users and convert them into customers.
+        </p>
+        <ul class="about-list">
+          <li>
+            <span class="check-icon">✓</span>
+            Expert in user-friendly design
+          </li>
+          <li>
+            <span class="check-icon">✓</span>
+            Full Stack Development
+          </li>
+          <li>
+            <span class="check-icon">✓</span>
+            Collaborative & Agile
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== SERVICES SECTION ===== -->
+  <section class="services" id="services">
+    <div class="services-container">
+
+      <div class="services-header">
+        <h2 class="services-title">Our <span class="highlight-purple">Services</span></h2>
+        <p class="services-sub">We provide end-to-end digital solutions tailored to your needs.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card" id="svc1">
+          <div class="svc-icon">💻</div>
+          <h3 class="svc-title">Custom Web Apps</h3>
+          <p class="svc-desc">Scalable and performant web applications tailored to your business needs.</p>
+        </div>
+
+        <div class="service-card" id="svc2">
+          <div class="svc-icon">📱</div>
+          <h3 class="svc-title">Mobile App Solutions</h3>
+          <p class="svc-desc">Cross-platform mobile apps crafted for a seamless mobile experience.</p>
+        </div>
+
+        <div class="service-card" id="svc3">
+          <div class="svc-icon">🤖</div>
+          <h3 class="svc-title">AI & Automation</h3>
+          <p class="svc-desc">Smart AI-powered tools and automation to supercharge your operations.</p>
+        </div>
+
+        <div class="service-card" id="svc4">
+          <div class="svc-icon">🎓</div>
+          <h3 class="svc-title">Career Mentorship</h3>
+          <p class="svc-desc">Expert guidance on placement, resume building, and mastering technical interviews.</p>
+        </div>
+
+        <div class="service-card" id="svc5">
+          <div class="svc-icon">🎨</div>
+          <h3 class="svc-title">UI/UX Modernization</h3>
+          <p class="svc-desc">Revamping old interfaces into modern, user-centric designs that convert.</p>
+        </div>
+
+        <div class="service-card" id="svc6">
+          <div class="svc-icon">🛍️</div>
+          <h3 class="svc-title">E-commerce Growth</h3>
+          <p class="svc-desc">Building robust online stores with secure payments and optimized user journeys.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="why" id="why">
+    <div class="why-container">
+
+      <div class="why-header">
+        <h2 class="why-title">Why <span class="highlight-purple">Choose Us</span></h2>
+        <p class="why-sub">We combine creativity with technical expertise to deliver outstanding results.</p>
+      </div>
+
+      <div class="why-grid">
+
+        <div class="why-card" id="why1">
+          <div class="why-icon">⚡</div>
+          <h3 class="why-card-title">Modern Tech Stack</h3>
+          <p class="why-card-desc">We use the latest technologies like React, Node.js, and AI to build future-ready
+            solutions.</p>
+        </div>
+
+        <div class="why-card" id="why2">
+          <div class="why-icon">🤝</div>
+          <h3 class="why-card-title">Client-Centric Approach</h3>
+          <p class="why-card-desc">Your vision is our priority. We work closely with you to ensure every detail matches
+            your expectations.</p>
+        </div>
+
+        <div class="why-card" id="why3">
+          <div class="why-icon">📊</div>
+          <h3 class="why-card-title">Scalable Architecture</h3>
+          <p class="why-card-desc">Our solutions are built to grow with your business, ensuring long-term success and
+            stability.</p>
+        </div>
+
+        <div class="why-card" id="why4">
+          <div class="why-icon">⏱️</div>
+          <h3 class="why-card-title">On-Time Delivery</h3>
+          <p class="why-card-desc">We value your time. Our agile process ensures that we deliver high-quality results
+            within deadlines.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== OUR PROCESS ===== -->
+  <section class="process" id="process">
+    <div class="process-container">
+
+      <div class="process-header">
+        <h2 class="process-title">Our <span class="highlight-purple">Process</span></h2>
+        <p class="process-sub">How we turn your ideas into successful digital products.</p>
+      </div>
+
+      <div class="process-steps">
+
+        <div class="process-step" id="step1">
+          <div class="step-top">
+            <span class="step-num">01</span>
+            <span class="step-dash">—</span>
+          </div>
+          <h3 class="step-title">Discovery</h3>
+          <p class="step-desc">We start by understanding your goals, target audience, and project requirements.</p>
+        </div>
+
+        <div class="process-step" id="step2">
+          <div class="step-top">
+            <span class="step-num">02</span>
+            <span class="step-dash">—</span>
+          </div>
+          <h3 class="step-title">Design</h3>
+          <p class="step-desc">Our designers create intuitive UI/UX prototypes to visualize your project's look and
+            feel.</p>
+        </div>
+
+        <div class="process-step" id="step3">
+          <div class="step-top">
+            <span class="step-num">03</span>
+            <span class="step-dash">—</span>
+          </div>
+          <h3 class="step-title">Development</h3>
+          <p class="step-desc">Our expert developers write clean, scalable code to bring your designs to life.</p>
+        </div>
+
+        <div class="process-step" id="step4">
+          <div class="step-top">
+            <span class="step-num">04</span>
+            <span class="step-dash" style="visibility:hidden">—</span>
+          </div>
+          <h3 class="step-title">Launch</h3>
+          <p class="step-desc">We perform rigorous testing and then deploy your project for the world to see.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TEAM SECTION ===== -->
+  <section class="team" id="team">
+    <div class="team-container">
+
+      <div class="team-header">
+        <h2 class="team-title">The Minds Behind <span class="highlight-purple">SkillMatch</span></h2>
+        <p class="team-sub">A dedicated team of experts committed to your success.</p>
+      </div>
+
+      <div class="team-grid">
+
+        <!-- Card 1 – Satyam -->
+        <div class="team-card" id="tm1">
+          <div class="team-photo photo-card">
+            <img src="images/satyam.png" alt="Satyam Srivastava" class="team-img" />
+          </div>
+          <div class="team-social">
+            <a href="https://www.linkedin.com/in/satyam-srivastava58/" target="_blank" class="tsoc-btn tsoc-linkedin"
+              aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+          </div>
+          <h3 class="team-name">Satyam Srivastava</h3>
+          <p class="team-role">FOUNDER &amp; CEO</p>
+          <p class="team-bio">
+            Leading the vision and technical architecture of our digital solutions.
+            Building <span class="bio-highlight">scalable</span>, high-performance web applications
+            with modern <span class="bio-highlight">cloud architecture</span> and AI integration.
+          </p>
+        </div>
+
+        <!-- Card 2 – Neeraj -->
+        <div class="team-card" id="tm2">
+          <div class="team-photo photo-card">
+            <img src="images/neeraj.jpg" alt="Neeraj Kumar" class="team-img" />
+          </div>
+          <div class="team-social">
+            <a href="https://www.linkedin.com/in/neerajkry/" target="_blank" class="tsoc-btn tsoc-linkedin"
+              aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+          </div>
+          <h3 class="team-name">Neeraj Kumar</h3>
+          <p class="team-role">CO-FOUNDER &amp; CTO</p>
+          <p class="team-bio">
+            Overseeing end-to-end <span class="bio-highlight">technology</span>,
+            architecture, and product development to deliver
+            <span class="bio-highlight">scalable</span> and impactful solutions.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact" id="contact">
+    <div class="contact-container">
+
+      <div class="contact-header">
+        <h2 class="contact-title">Let's <span class="highlight-purple">Connect</span></h2>
+        <p class="contact-sub">Ready to start your digital journey? Contact us today.</p>
+      </div>
+
+      <div class="contact-body">
+
+        <!-- Left: Info Cards -->
+        <div class="contact-info">
+
+          <div class="info-card" id="info1">
+            <div class="info-icon loc-icon">📍</div>
+            <div class="info-text">
+              <p class="info-title">Our Location</p>
+              <p class="info-detail">Sector 18, Noida, Gautam Buddh Nagar,<br /><span class="info-highlight">Uttar
+                  Pradesh</span> – 201301, India</p>
+            </div>
+          </div>
+
+          <div class="info-card" id="info2">
+            <div class="info-icon call-icon">📞</div>
+            <div class="info-text">
+              <p class="info-title">Call Us</p>
+              <p class="info-detail">+91 7906503640</p>
+            </div>
+          </div>
+
+          <div class="info-card" id="info3">
+            <div class="info-icon mail-icon">✉️</div>
+            <div class="info-text">
+              <p class="info-title">Email Us</p>
+              <p class="info-detail">skillmatch.career@gmail.com</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Contact Form -->
+        <div class="contact-form-wrap" id="contactForm">
+          <div id="formSuccess" class="form-success-msg" style="display:none">
+            <span class="success-icon">✓</span>
+            <div>
+              <p class="success-title">Message Sent!</p>
+              <p class="success-sub">We'll get back to you within 24 hours.</p>
+            </div>
+          </div>
+          <form id="contactMainForm" class="contact-form" action="https://formsubmit.co/skillmatch.career@gmail.com"
+            method="POST">
+            <!-- Formsubmit config -->
+            <input type="hidden" name="_subject" value="New Contact from SkillMatch Website" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_next" value="https://neeraj62.github.io/skillmatch/thanks.html" />
+            <input type="text" id="fname" name="name" class="form-input" placeholder="Your Name" required />
+            <input type="email" id="femail" name="email" class="form-input" placeholder="Your Email" required />
+            <textarea id="fmessage" name="message" class="form-textarea" placeholder="Tell us about your project"
+              rows="5" required></textarea>
+            <button type="submit" class="form-btn" id="sendBtn">
+              <span id="sendBtnText">Send Message</span>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer-full">
+
+    <!-- Top: 4-column area -->
+    <div class="footer-top">
+      <div class="footer-inner">
+
+        <!-- Col 1: Brand -->
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="footer-logo-icon">▲</span>
+            <span class="footer-logo-name">SkillMatch AI</span>
+          </div>
+          <p class="footer-brand-desc">
+            AI-powered hiring platform that matches the right talent with the right opportunities.
+            Smarter matches. Faster decisions.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="fsoc" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+            <a href="#" class="fsoc" aria-label="X / Twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              </svg>
+            </a>
+            <a href="#" class="fsoc" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Platform -->
+        <div class="footer-col">
+          <h4 class="footer-col-heading">PLATFORM</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Contact -->
+        <div class="footer-col">
+          <h4 class="footer-col-heading">CONTACT US</h4>
+          <ul class="footer-contact-list">
+            <li>Sector 18, Noida, Gautam Buddh Nagar,<br />Uttar Pradesh – 201301, India</li>
+            <li>+91 7906503640</li>
+            <li>skillmatch.career@gmail.com</li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Legal -->
+        <div class="footer-col">
+          <h4 class="footer-col-heading">LEGAL</h4>
+          <ul class="footer-links">
+            <li><a href="#contact">Privacy Policy</a></li>
+            <li><a href="#contact">Terms of Service</a></li>
+            <li><a href="#contact">Cookie Policy</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Newsletter Bar -->
+    <div class="footer-newsletter-wrap">
+      <div class="footer-newsletter">
+        <div class="newsletter-left">
+          <p class="newsletter-title">Stay Updated</p>
+          <p class="newsletter-sub">Get the latest news about our services and digital solutions.</p>
+        </div>
+        <form class="newsletter-form" onsubmit="handleNewsletter(event)">
+          <input type="hidden" name="_subject" value="Newsletter Subscription - SkillMatch" />
+          <input type="email" id="newsEmail" name="email" class="newsletter-input" placeholder="Enter your email"
+            required />
+          <button type="submit" class="newsletter-btn" id="subBtn">
+            <span id="subBtnText">Subscribe</span>
+            <span id="subBtnLoader" style="display:none">Sending...</span>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bottom copyright bar -->
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <p class="copyright">© 2026 SkillMatch AI. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#contact">Privacy Policy</a>
+          <a href="#contact">Terms of Service</a>
+          <a href="#contact">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
