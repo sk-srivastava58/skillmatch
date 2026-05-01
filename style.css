@@ -343,7 +343,7 @@ body {
   flex: 1;
   max-width: 520px;
   height: 500px;
-  background: url('../images/hero-building.jpg') center center / cover no-repeat;
+  background: url('images/hero-building.jpg') center center / cover no-repeat;
   border-radius: 28px;
   display: flex;
   align-items: flex-end;
